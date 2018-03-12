@@ -1,7 +1,6 @@
 
-var
-    twit = require('twit'),
-    config = require('./config');
+var twit = require('twit');
+var config = require('./config');
 
 var Twitter = new twit(config);
 
@@ -9,11 +8,13 @@ var Twitter = new twit(config);
 
 // find latest tweet according the query 'q' in params
 var retweet = function() {
+    
     var params = {
         q: '#SRV, #Guitar',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
+    
     Twitter.get('search/tweets', params, function(err, data) {
       // if there no errors
         if (!err) {
