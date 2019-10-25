@@ -1,12 +1,12 @@
 {
-  "name": "workspace",
+  "name": "Flagblocker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Block people with the 'spain flag icon' on the username",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Darwin González Suárez",
   "license": "ISC",
   "dependencies": {
     "twit": "^2.2.9"
