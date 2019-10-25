@@ -1,8 +1,8 @@
 # Blocker twitter bot :hocho:
 
-Test twitter API blocking users from your twitter that have "The flag of Spain icon" in their username. You can fully customize who you want to block. **DO NOT stand b*******s, block them!** :rage1: :rage2: :rage3: :rage4:
+Test twitter API blocking users from your twitter that have "The Spanish flag icon" in their username. You can fully customize who you want to block. **DO NOT stand b*******s, block them!** :rage1: :rage2: :rage3: :rage4:
 
-## Installation
+## Installation :wrench:
 ```
 $ npm i
 ```
